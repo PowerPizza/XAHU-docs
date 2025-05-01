@@ -16,15 +16,15 @@ Since multiple users can upload images with the same name, I’ve introduced end
 
 
 # How to use only ?
-Go to https://ahux.onrender.com, where you’ll see a collection of images along with their names and endpoints. Browse through the available images, and once you’ve found the one you want to send, return to WhatsApp and open the chat where you want to share the image.  
+Go to https://wipr.onrender.com, where you’ll see a collection of images along with their names and endpoints. Browse through the available images, and once you’ve found the one you want to send, return to WhatsApp and open the chat where you want to share the image.  
 <img src="site_homepage_view.png" alt="Kind of webpage you will see.">  
 Now type the link pattern given below in the chat.  
 
 ## Link Patterns
 These link patterns are designed to be copy-pasted directly or typed manually into WhatsApp, allowing you to load and preview your desired image through WhatsApp’s link preview feature.
-1. > https://ahux.onrender.com/use/ENDPOINT_NAME/IMAGE_NAME
+1. > https://wipr.onrender.com/use/ENDPOINT_NAME/IMAGE_NAME
 
-2. > https://ahux.onrender.com/use/IMAGE_NAME
+2. > https://wipr.onrender.com/use/IMAGE_NAME
    
 >> **Note:** Make sure to replace `ENDPOINT_NAME` with the actual endpoint you copied from the website, and `IMAGE_NAME` with the exact name of the image you want to send.
 
@@ -34,17 +34,17 @@ In *Pattern 1*, we use the format `ENDPOINT_NAME/IMAGE_NAME`. This ensures that 
 However, in *Pattern 2*, where the link does not include an `ENDPOINT`, the tool simply searches for the image by name. If only one image exists with that name, it will be loaded. But if multiple users have uploaded images with the same name, the tool may select and preview any one of them at random in WhatsApp.
 
 # How to Add and Use Custom Images with This Tool ?
-## STEP 1: Create an account on [ahux](https://ahux.onrender.com/)
-* Go to https://ahux.onrender.com/signup
+## STEP 1: Create an account on [wipr](https://wipr.onrender.com/)
+* Go to https://wipr.onrender.com/signup
 * Put a secure *username* and *password*.
 * Put a small, easy and simple endpoint name, which will make your endpoint to being easily used by other users.
 * Then click signup button to create account.
 > NOTE: Make sure to remember your `username`, `password` and `endpoint`.
 * ### Login
-    If you already have an account so go to https://ahux.onrender.com/login and login to your account.
+    If you already have an account so go to https://wipr.onrender.com/login and login to your account.
 
 ## STEP 2: Uploading a new image.
-* After creating your account or logging into your account go to https://ahux.onrender.com/dashboard
+* After creating your account or logging into your account go to https://wipr.onrender.com/dashboard
 * Put an easy, relatable and simple image name.
 * Go to google or any other platform where you have found the image, copy the link of image.
 * Paste the image link in the input field.
@@ -59,8 +59,25 @@ However, in *Pattern 2*, where the link does not include an `ENDPOINT`, the tool
 * Open whatsapp, type any link pattern given above but make user to put your account's endpoint at place of `ENDPOINT` and your image name at place of `IMAGE_NAME`
 
 ## STEP 4 (optional) : Deleting an image.
-* If you want to delete the uploaded image go to https://ahux.onrender.com/management
+* If you want to delete the uploaded image go to https://wipr.onrender.com/management
 * Click on delete button to delete the image you want.
+
+# Emoji Update
+With this update, you can now use the tool to popup emojis directly in WhatsApp.  
+To use this feature, simply use the following URL format in WhatsApp:
+https://wipr.onrender.com/emoji/AN_EMOJI
+
+Replace `AN_EMOJI` with any emoji or single character such as `1`, `2`, `3`, `A`, `B`, `C`, etc., to make it pop up in WhatsApp.
+
+**Note:** 
+* Not all emojis are currently supported, but most popular ones have been included.
+* Text characters like 1, A, or C are supported, but they might not appear perfectly centered in the popup image.
+* Make sure to use only one character or emoji at a time. If you use more than one, only the first character will be shown in the popup.
+### Example :-
+using `https://wipr.onrender.com/emoji/😋` to popup `😋` emoji.  
+<img src="popup_emoji_exmp1.jpeg" alt="Popup Example" width="200" height="300">
+<img src="popup_emoji_exmp2.jpeg" alt="Popup Example" width="200" height="300">
+
 
 # More Info <span style="color: cyan">ⓘ</span>
 * You can upload a maximum of 70 images per account. This limit is in place due to database storage constraints.
