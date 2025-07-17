@@ -85,6 +85,9 @@ using `https://wipr.onrender.com/emoji/😋` to popup `😋` emoji.
 * We generally recommend using the second link pattern, as it is shorter and easier to type in chats. However, if you know the specific endpoint that contains the image you want, you can use the first link pattern for more accuracy.
 * Only image links can be added to the tool at the moment. Direct file uploads are not supported yet, but this feature may be added in the future.
 
+# For Android 📱
+* WhatsApp Image Popper is now available as android app. [Install Now](https://drive.google.com/drive/folders/1zbVkNiUOFrPP0G9kYeuI3HfGtV25Fy3D?usp=drive_link)
+
 # Cautions ⚠️
 * Do not share your username or password. If someone gains access, they can upload images to your account without your permission.
 * Avoid uploading video links, GIFs, or unsupported media formats. These are not compatible and will not work with the tool.
