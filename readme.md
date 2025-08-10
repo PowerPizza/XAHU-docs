@@ -78,7 +78,26 @@ using `https://wipr.onrender.com/emoji/😋` to popup `😋` emoji.
 <img src="popup_emoji_exmp1.jpeg" alt="Popup Example" width="200" height="300">
 <img src="popup_emoji_exmp2.jpeg" alt="Popup Example" width="200" height="300">
 
+# Itag Update
+The **Itag (Image Tag)** feature allows you to send **name-tagged** images directly on WhatsApp.  
+*For example,* imagine you type a command like: `user1_slap_user2`  
+Here, **user1** and **user2** can be the names of any two people. The tool will automatically generate an image of an anime character slapping another character, with **user1** and **user2** tagged in the image according to the command format.  
+When you press Send in WhatsApp, this tagged image will be sent to the recipient instantly.  
+In short, the Itag feature makes it possible to create and send fun, personalized images with custom name tags in seconds.  
+To use it :-
+* Open anyone's chat in whatsapp
+* Copy-paste or manually type `https://wipr.onrender.com/itag/user1_action_user2`
+* Carefully replace suffix of url `user1_action_user2` with correct placeholders
+  * user1 : name of person who is performing the action.
+  * action : any valid action of [itag action list](https://wipr.onrender.com/list_itags)
+  * user2 : name of the person who is going to be affected due to action.  
+  **For example :**  if scihack want to show a popup in WhatsApp where scihack is slapping powerpizza so the suffix of url will be *scihack_slap_powerpizza*
 
+
+* Here's how it looks like when used in WhatsApp
+<img src="itag_example.png" alt="Kind of webpage you will see."> 
+
+* **Note :** If you would like to add your own images with custom tags then you have to understood how this feature works which will be explained later, for now only the admin of this tool can add custom command and images.
 # More Info <span style="color: cyan">ⓘ</span>
 * You can upload a maximum of 70 images per account. This limit is in place due to database storage constraints.
 * GIF files are not supported. Since WhatsApp link previews do not support GIFs, this tool cannot display them either.
